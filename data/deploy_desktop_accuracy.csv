@@ -1,0 +1,5 @@
+ckpt,arch,precision,n_test,test_acc,test_macro_f1,delta_acc_vs_fp32_pp,pred_agreement_with_fp32,cpu_eval_threads
+experiments/runs/w2v2-ssl-speaker-lr3e-05-s0/model.pt,w2v2,fp32,1658,0.9427020506634499,0.9415310493796883,0.0,1.0,12
+experiments/runs/w2v2-ssl-speaker-lr3e-05-s0/model.pt,w2v2,int8,1658,0.9414957780458384,0.9403802151244531,-0.12062726176115257,0.9861278648974668,12
+experiments/runs/mms300m-ssl-speaker-lr3e-05-s0/model.pt,mms300m,fp32,1658,0.969843,0.968957,0.0,1.0,4
+experiments/runs/mms300m-ssl-speaker-lr3e-05-s0/model.pt,mms300m,int8,1658,0.969843,0.968920,0.0,0.994572,4
